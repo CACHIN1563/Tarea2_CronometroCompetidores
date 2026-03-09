@@ -67,7 +67,7 @@ function resetTimer() {
     elapsedTime = 0;
     startTime = 0;
     isRunning = false;
-    display.innerHTML = "00:00:00.<span class="ms">00</span>";
+    display.innerHTML = "00:00:00.<span class='ms'>00</span>";
     startStopBtn.textContent = 'Iniciar';
     startStopBtn.classList.remove('btn-outline');
     startStopBtn.classList.add('btn-primary');
